@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+.section-title {
+    color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #fff;
+}
+ 
+.section {
+    height: 850px;
+    background-color: #DE2B24;;
+  padding: 50px 0;
+}
+ 
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+ 
+.box {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+     grid-template-columns: 200px 200px 200px 200px;
+}
+.box .item {
+  height: 200px;
+    background-color: #F35E59;
+}
+.box .item:nth-child(-n + 4):nth-child(odd),
+.box .item:nth-child(n + 5):nth-child(-n + 8):nth-child(even) {
+   background-color: #F35E59;
+    text-align: center;
+  padding: 49px 20px;
+    color: white;
+}
+.Ssection{
+    
+    background-color:#1286BF;
+    height: 850px;
+    padding: 50px 0;
+}
+.round {
+    color: white;
+  width: 2.5em;
+  height: 2.5em;
+  border: 2px solid white;
+  border-radius: 50%;
+  line-height: 2.5em; 
+  text-align: center;  
+  background: #1286BF;
+   margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.round :hover{
+   -webkit-transform: rotateZ(20deg);
+    -ms-transform: rotateZ(20deg);
+    transform: rotateZ(20deg);
+    
+}
+.geom{
+    width: 30px;
+    margin: auto;
+    border: 30px solid transparent; border-bottom: 30px solid white;
+}
+.formcontainer{
+   
+   margin: 0 auto;
+    background-color: white;
+    height: 450px;
+    width: 680px;
+   padding-right: 50px;
+   padding-left: 50px;
+    border-radius: 2%;
+   
+}
+.forma{
+   
+    display: grid;
+    grid-template-columns: 480px;
+    grid-gap: 16px;
+}
+.forma .iteminp{
+     height: 50px;
+    font-size: 18px;
+    margin-top: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: #f1f1f1;
+}
+.forma .itemsubmit
+{
+    text-align: center;
+    font-weight: 600;
+    width: auto;
+    height: 50px;
+    background-color: red;
+    color: white;
+    padding: 13px,20px;
+    border-radius: 4px;
+    margin: auto;
+}
+.inform{
+    padding: 0 0 0 50px;
+}
+
+.itemsubmit:hover{
+    transform: scale(1.07);
+    color: lightcyan;
+}
+
+.text1{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 30px;
+    color: lightgray;
+}
+.Fsection{
+     background-color: #2A2A2A;
+    height: 550px;
+    padding: 50px 0;
+    text-align: center;
+    
+}
+.Footer{
+   margin: 0 auto;
+    height: 450px;
+    width: 680px;
+   padding-right: 50px;
+   padding-left: 50px;
+   
+}
+.Foter-text{
+     color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.footerlinks >a> img{
+    margin-right: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+   
+    border: 2px solid  #9C9C9C;
+    border-radius: 10px;
+}
+.footerlinks >a> img:hover{
+    border: 2px solid red;
+    transform: scale(1.05);
+}
+.inin-footer{
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    background-color: #515151;
+    color: #9C9C9C;
+}
+.Footer > p{
+    text-align: center;
+    color: #C2C2C2;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    
+}
+.Footer-form{
+       display: grid;
+    grid-template-columns: 480px;
+    grid-gap: 16px;
+    align-items: center;
+    
+   
+}
+form .itemfootinp{
+    width: 560px;
+    height: 40px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    padding-left: 10px;
+    background-color: #9C9C9C;
+    margin-left: 20px;
+}
+form .footer-submit{
+    text-align: center;
+    font-weight: 600;
+    width: auto;
+    height: 50px;
+    background-color: #2A2A2A;
+    color: lightgray;
+    padding: 13px,20px;
+    border-radius: 4px;
+    margin-left: 125px;
+    margin-top: 30px;
+
+}
+.footer-submit:hover{
+    color: skyblue;
+    transform: scale(1.05);
+}
